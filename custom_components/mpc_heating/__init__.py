@@ -1,0 +1,1 @@
+"""MPC Heating integration."""
