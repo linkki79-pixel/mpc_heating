@@ -1,0 +1,23 @@
+{
+  "config": {
+    "abort": {
+      "single_instance_allowed": "Only one instance of MPC Heating is allowed."
+    },
+    "step": {
+      "user": {
+        "title": "MPC Heating",
+        "data": {
+          "target_flow_entity": "Target flow entity",
+          "outlet_temp_entity": "Outlet temperature entity",
+          "overheat_entity": "Overheat entity",
+          "indoor_temp_entity": "Indoor temperature entity",
+          "outdoor_temp_entity": "Outdoor temperature entity",
+          "carnot_efficiency_entity": "Carnot efficiency entity",
+          "suggested_flow_entity": "Suggested flow entity",
+          "debug_text_entity": "Debug text entity",
+          "three_way_valve_entity": "Three-way valve entity"
+        }
+      }
+    }
+  }
+}
