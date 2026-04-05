@@ -57,7 +57,7 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
         return True
 
     coordinator = MPCHeatingCoordinator(hass=hass, source_config=conf)
-    await coordinator.async_config_entry_first_refresh()
+    await coordinator.async_refresh()
 
     hass.data.setdefault(DOMAIN, {})
     hass.data[DOMAIN][COORDINATOR] = coordinator
